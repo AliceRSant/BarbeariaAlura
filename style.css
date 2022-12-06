@@ -1,20 +1,83 @@
-body
-{
-text-align: center;
-
-background: #cccccc;
+header
+{background:#bbbbbb;
+padding:20px 0;
 }
 
-h1
-{font-size: 25px}
+.caixa {
+  position: relative;
+  width:940px;
+  margin: 0 auto;}
 
-p{font-sizee: 20px}
+body
+{
+text-align: center
+}
+
+.titulo-principal
+{text-align: left;
+padding-left: 20px}
 
 em strong
 {
-color: lightgreen
+color: green
 }
 
 #Barbearia
+{ width: 100%}
 
-{width= 100%}
+
+.Beneficios
+{background:#FFFFFF}
+
+.listabeneficios
+{ display:inline-block;
+vertical-align:top;
+width:20%;
+margin-right:15%;
+padding:20px}
+
+.itens
+{text-align: left;
+font-style: italic;
+}
+
+.imagembeneficios
+{width:50%}
+
+.caixa {
+  position: relative;
+  width:940px;
+  margin: 0 auto;
+}
+
+nav
+{position:absolute;
+top:110px;
+right:0}
+
+nav li
+{display: inline;
+margin: 0 0 0 15px}
+
+nav a
+{ text-transform:uppercase;
+color:#000000;
+font-weight:bold;
+font-size: 22px;
+text-decoration: none}
+
+nav a:hover {
+color: #848c94;
+#text-decoration: underline;#
+}
+
+footer
+{text-align: center;
+background: url("https://img.freepik.com/fotos-gratis/textura-preta_1205-327.jpg?1?w=360");
+padding: 40px 0;}
+
+.copyright
+{color: #FFFFFF;
+font-size: 13px;
+margin: 20px 0 0}
+
